@@ -176,14 +176,14 @@ function OnJoystickControlled(strPara){
     if(btn_info[0] == '1'){
            // window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("Welcome to Interstate Restoration");//I'm here to assist you, press any button on my screen to begin");
+            window.external.PlaySpeech("Welcome to the US Open");//I'm here to assist you, press any button on my screen to begin");
           
     }
 
     if(btn_info[1] == '1'){
         //window.external.ChangeLanguage("en-us");
         SetVolume(1);
-        window.external.PlaySpeech("Scan your badge to begin.");
+        window.external.PlaySpeech("Press my screen to find out who is playing");
         
     }
     if(btn_info[2] == '1'){
@@ -194,7 +194,7 @@ function OnJoystickControlled(strPara){
     if(btn_info[3] == '1'){
         //window.external.ChangeLanguage("en-us");
         SetVolume(1);
-       window.external.PlaySpeech("Check out my videos to learn more");
+       window.external.PlaySpeech("");
         
     }
     if(btn_info[4] == '1'){
